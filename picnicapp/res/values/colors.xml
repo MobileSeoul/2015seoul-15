@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="black">#000000</color>
+    <color name="gray">#B5B9B6</color>
+    <color name="light_gray">#F5F9F6</color>
+
+    <!-- layout -->
+    <color name="toast_background_dark">#353535</color>
+    <color name="background">#EDEDED</color>
+    <color name="background_light">#F7F7F7</color>
+    <color name="btn_background_color_normal">#818590</color>
+    <color name="btn_background_color_click">#FF7F7F</color>
+    <color name="btn_text_color">#FFFFFF</color>
+    <color name="scan_summary_text">#666666</color>
+    <color name="scan_summary_background">#201534</color>
+    <color name="listitem_clicked">#4045C9</color>
+    <color name="list_no_item_text">#F0F0F0</color>
+    <color name="list_no_item_background">#8C8C8C</color>
+    <color name="background_window">#FFE5E5E5</color>
+
+    <!-- Splash -->
+    <color name="splash_background">#FFFDE7</color>
+
+    <!-- Scan -->
+    <color name="no_item_background">#707070</color>
+    <color name="scan_background">#EFEFEF</color>
+    <color name="scan_text">#666666</color>
+    <color name="scan_range_text">#FF6666</color>
+
+    <!-- Settings -->
+    <color name="setting_background">#EFEFEF</color>
+    <color name="setting_btn_text">#010101</color>
+
+</resources>

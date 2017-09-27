@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PicnicApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="action_contact">Contact</string>
+
+    <!-- Tabs -->
+    <string name="tab_check">Check</string>
+    <string name="tab_guard">Guard</string>
+    <string name="tab_setting">Setting</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="splash_copyright" translatable="false">2015 ⓒ Monospace.  All Rights Reserved.</string>
+
+    <!-- Settings -->
+    <string name="choose_file">Choose your list file</string>
+    <string name="choose_file_nofile">No list file. Put your list file into folder:</string>
+    <string name="check_list_saved">Check list selected</string>
+    <string name="check_list_cleared">Check list cleared</string>
+    <string name="guard_list_saved">Guard list selected</string>
+    <string name="guard_list_cleared">Guard list cleared</string>
+    <string name="check_list_failed">File error: incorrect data</string>
+    <string name="guard_list_failed">File error: incorrect data</string>
+
+    <!-- List -->
+    <string name="no_list_data">No list data.\nPlease load list in settings tab.</string>
+    <string name="no_guard_data">No guard data.\nPlease load list in settings tab.\nIf you set data, app will automatically starts scan,\nSo it consumes more battery.</string>
+    <string name="scan_text">Scan</string>
+    <string name="send_call">Make a phone call</string>
+    <string name="sort_notfound_first">Notfound first</string>
+
+    <!-- Guard -->
+    <string name="guard_warning">Picnicapp: Guard warning!</string>
+    <string name="guard_warning_toast">Picnicapp: Guard warning! TARGET LOST!</string>
+
+    <!-- Contacts -->
+    <string name="contacts_creadits">Credits</string>
+    <string name="contacts_1">Yongwun Ko influenz@daum.net 010-5515-5014</string>
+    <string name="contacts_2">Hyein Kim hyein8989@gmail.com</string>
+    <string name="contacts_3">Minji Lee Manja0408@naver.com</string>
+
+</resources>

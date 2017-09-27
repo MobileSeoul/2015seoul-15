@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/scan_background" >
+
+    <RelativeLayout
+        android:id="@+id/rlScan_Menu_1"
+        android:layout_width="fill_parent"
+        android:layout_height="43.33dp" >
+
+        <TextView
+            android:id="@+id/tvScanCountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="34.67dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:text="검색결과:"
+            android:textColor="@color/scan_summary_text"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvScanCount"
+            android:layout_width="wrap_content"
+            android:layout_height="34.67dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.67dp"
+            android:layout_toRightOf="@id/tvScanCountLabel"
+            android:gravity="center_vertical"
+            android:text="27 / 30"
+            android:textColor="@color/scan_summary_text"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btnSort"
+            android:layout_width="74dp"
+            android:layout_height="34.67dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13.33dp"
+            android:layout_toRightOf="@id/tvScanCount"
+            android:background="@drawable/btn_sort_notselected"
+            android:fontFamily="sans-serif"
+            android:text="@string/sort_notfound_first"
+            android:textColor="@color/scan_text"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="74dp"
+            android:layout_height="34.67dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16.67dp"
+            android:background="@drawable/btn_scan"
+            android:fontFamily="sans-serif"
+            android:text="@string/scan_text"
+            android:textColor="@color/scan_text"
+            android:textSize="11dp"
+             />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_divider_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="0.67dp"
+        android:layout_below="@id/rlScan_Menu_1"
+        android:background="#ffcccccc" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_divider_scan"
+        android:layout_marginTop="13.33dp"
+        android:background="@color/background_light" >
+
+        <RelativeLayout
+            android:id="@+id/rlMain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/scan_background" >
+
+            <ListView
+                android:id="@+id/lvDevice"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@drawable/listitem_selector"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:id="@+id/tvNodata"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@color/no_item_background"
+                android:gravity="center"
+                android:text="@string/no_list_data"
+                android:textColor="@color/list_no_item_text"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
